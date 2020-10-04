@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(./techbackgroundsmaller.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px 1600px;
+    
+    
+    color: rgb(0, 195, 255);
+    margin: 0 auto;
+    
+  }
+  /* What kind of selector is this? */
+  .logo {
+    width: 150px;
+    height: 150px;
+    margin: 3% 10%;
+  }
+
+  header {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 100%;
+  }
+
+  main {
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+  }
+
+
+  /* This is an element within an element selector */ 
+  nav > a {
+    margin:1.5% 1.5%;
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 25px;
+    background: rgb(0, 195, 255);
+    padding: auto;
+    text-align: center;
+    border: 4px solid orange;
+    float: left;
+    line-height: 60px;
+    width: 400px;
+    height: 60px;
+      -webkit-transition: 1s ease-in-out;
+      -moz-transition: 1s ease-in-out;
+      -o-transition: 1s ease-in-out;
+      transition: 1s ease-in-out;
+      -webkit-transform: translate(3em,0);
+      -moz-transform: translate(3em,0);
+      -o-transform: translate(3em,0);
+      -ms-transform: translate(3em,0);
+      transform: translate(3em,0);
+    justify-content: flex-end;
+    
+  }
+  /* This is an ID selector */
+  #profile-pic {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin: auto;
+    grid-column: 2/3;
+  }
+
+  h1 {
+    color:rgb(0, 195, 255);
+    grid-column: 2/3;
+    margin: 3%;
+    border-bottom: 2px;  
+    color: orange;
+  }
+
+  h2 {
+    grid-column: 2/3;
+    margin: 3%;
+    font-style: italic;
+    color: orange;
+  }
+
+  .small-text {
+    grid-column: 2/3;
+    color: orange;
+    font-size: 30px;
+    margin: 3% auto;
+  }
+
+  button {
+    grid-column: 2/3;
+    margin: 3%;
+    width: 725px;
+    height: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    border-radius: 25px;
+    background : rgb(0, 195, 255);
+    fill-opacity: 100%;
+    padding: 10px;
+    padding-bottom: 5%;
+    text-align: center;
+    color: orange;
+    letter-spacing: 10px;
+    font-style: italic;
+    border: 4px solid orange;
+  }

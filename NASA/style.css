@@ -1,0 +1,64 @@
+body {
+    margin: 0 auto;
+    width: 1000px
+  
+}
+main{
+    
+    background-image: url(./spacexwebpage.jpeg);
+    background-size: cover;
+    height: 600px;
+}
+h1{
+    display: flex;
+    align-content:center;
+    justify-content: center;
+    align-items: center;
+    font-family:'ABeeZee', sans-serif;
+    color: white;
+    font-size: 80px;
+}
+h2{
+    font-size: 30px ;
+    margin: 10px;
+    padding-bottom: 12%;
+
+}
+
+
+h3{
+    font-size: 30px ;
+    margin: 10px;
+    
+}
+section{
+    font-family:'Balsamiq Sans', cursive;
+    color: #a4abb9;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2E4272 ;
+    height: 324px;
+    margin: 0 auto;
+   
+    
+    
+
+
+}
+article{
+    width: 270px;
+    height: 374px;
+    font-size: 17px;
+    flex-direction: row;
+    
+
+}
+
+   
+
+button{
+    width: 200px;
+    height:40px;
+    border-radius: 15pt;
+    
+}   
