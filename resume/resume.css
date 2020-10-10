@@ -1,0 +1,70 @@
+
+  
+
+  
+  body{font-family: 'Josefin Sans', sans-serif;
+      color: white;
+
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 1fr 1fr 0.9fr 1.1fr 1.1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "Image Header"
+      "Image Header"
+      "Contact-info Area-Of-Expertise"
+      "Contact-info Area-Of-Expertise"
+      "Contact-info Professional-History"
+      "Contact-info Professional-History"
+      "Contact-info Educational-History-"
+      "Contact-info Educational-History-";
+      margin:8%;
+  }
+  .Header { grid-area: Header;
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 60px;
+            background-color:#FA7D09;
+            
+             }
+  .Area-Of-Expertise { grid-area: Area-Of-Expertise;
+                      background-color:#686D76 ; }
+  .Professional-History { grid-area: Professional-History; 
+                          background-color:#686D76 ;}
+  .Educational-History- { grid-area: Educational-History-; 
+                          background-color: #686D76;}
+  .Image { grid-area: Image; 
+            background-color:#FA7D09 ;}
+  .Contact-info {
+    background-color: #686D76;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "."
+      "phone-number"
+      "Address"
+      "email"
+      "Social-Media";
+    grid-area: Contact-info;
+  }
+  .phone-number { grid-area: phone-number; }
+  .Address { grid-area: Address; }
+  .email { grid-area: email; }
+  .Social-Media { grid-area: Social-Media; }
+
+  img { width: 200px;
+        border-radius: 50%;
+        background-color: #686D76;
+  }
+
+article{
+    font-size: 16px;
+    
+  }
+
+  
+
